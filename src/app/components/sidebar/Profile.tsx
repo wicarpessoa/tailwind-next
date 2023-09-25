@@ -16,7 +16,7 @@ export function Profile() {
           wicarpp@gmail.com
         </span>
       </div>
-      <button>
+      <button type="button" className="ml-auto rounded-md p-2 hover:bg-zinc-50">
         <LogOut className="h-5 w-5 text-zinc-500" />
       </button>
     </div>
