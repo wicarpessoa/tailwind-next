@@ -4,6 +4,7 @@ import { SettingsTab } from './components/SettingsTabs'
 import * as FileInput from './components/Form/FileInput'
 import { Select } from './components/Form/Select'
 import { SelectItem } from './components/Form/Select/SelectItem'
+import { TextArea } from './components/TextArea'
 export default function Home() {
   return (
     <>
@@ -136,6 +137,7 @@ export default function Home() {
             </Select>
             <div />
           </div>
+
           {/* bio input */}
           <div className="grid grid-cols-form gap-3 pt-5">
             <label htmlFor="bio" className="text-sm font-medium text-zinc-700">
@@ -189,6 +191,7 @@ export default function Home() {
                   </button>
                 </div>
               </div>
+              <TextArea defaultValue="I'm a Product Designer based in Melbourne, Australia. I specialise in UX/UI design, brand strategy, and Webflow development." />
             </div>
           </div>
 
