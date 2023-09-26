@@ -24,14 +24,14 @@ export default function Home() {
           <div className="flex items-center gap-2">
             <button
               type="button"
-              className="rounded-lg border border-zinc-300 px-4 py-2 text-sm font-semibold text-zinc-700 shadow-sm hover:bg-zinc-50"
+              className="rounded-lg border border-zinc-300 px-4 py-2 text-sm font-semibold text-zinc-700 shadow-sm outline-none hover:bg-zinc-50 focus:border-violet-300 focus:ring-4 focus:ring-violet-100"
             >
               Cancel
             </button>
             <button
               type="submit"
               form="settings"
-              className="rounded-lg bg-violet-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-violet-700"
+              className="rounded-lg bg-violet-600 px-4 py-2 text-sm font-semibold text-white shadow-sm outline-none hover:bg-violet-700 focus:border-violet-300 focus:ring-4 focus:ring-violet-100"
             >
               Save
             </button>
@@ -158,31 +158,31 @@ export default function Home() {
                 <div className="flex items-center gap-1">
                   <button
                     type="button"
-                    className=" rounded-md p-2 hover:bg-zinc-50"
+                    className=" rounded-md p-2 outline-none hover:bg-zinc-50 focus:border-violet-300 focus:ring-4 focus:ring-violet-100"
                   >
                     <Bold className="h-4 w-4 text-zinc-500" strokeWidth={3} />
                   </button>
                   <button
                     type="button"
-                    className=" rounded-md p-2 hover:bg-zinc-50"
+                    className=" rounded-md p-2 outline-none hover:bg-zinc-50 focus:border-violet-300 focus:ring-4 focus:ring-violet-100"
                   >
                     <Italic className="h-4 w-4 text-zinc-500" strokeWidth={3} />
                   </button>
                   <button
                     type="button"
-                    className=" rounded-md p-2 hover:bg-zinc-50"
+                    className=" rounded-md p-2 outline-none hover:bg-zinc-50 focus:border-violet-300 focus:ring-4 focus:ring-violet-100"
                   >
                     <Link className="h-4 w-4 text-zinc-500" strokeWidth={3} />
                   </button>
                   <button
                     type="button"
-                    className=" rounded-md p-2 hover:bg-zinc-50"
+                    className=" rounded-md p-2 outline-none hover:bg-zinc-50 focus:border-violet-300 focus:ring-4 focus:ring-violet-100"
                   >
                     <List className="h-4 w-4 text-zinc-500" strokeWidth={3} />
                   </button>
                   <button
                     type="button"
-                    className=" rounded-md p-2 hover:bg-zinc-50"
+                    className=" rounded-md p-2 outline-none hover:bg-zinc-50 focus:border-violet-300 focus:ring-4 focus:ring-violet-100"
                   >
                     <ListOrdered
                       className="h-4 w-4 text-zinc-500"
@@ -216,13 +216,13 @@ export default function Home() {
           <div className="flex items-center justify-end gap-2 pt-5">
             <button
               type="button"
-              className="rounded-lg border border-zinc-300 px-4 py-2 text-sm font-semibold text-zinc-700 shadow-sm hover:bg-zinc-50"
+              className="rounded-lg border border-zinc-300 px-4 py-2 text-sm font-semibold text-zinc-700 shadow-sm outline-none hover:bg-zinc-50 focus:border-violet-300 focus:ring-4 focus:ring-violet-100"
             >
               Cancel
             </button>
             <button
               type="submit"
-              className="rounded-lg bg-violet-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-violet-700"
+              className="rounded-lg bg-violet-600 px-4 py-2 text-sm font-semibold text-white shadow-sm outline-none hover:bg-violet-700 focus:border-violet-300 focus:ring-4 focus:ring-violet-100"
             >
               Save
             </button>
